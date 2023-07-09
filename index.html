@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Memory</title>
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div id="game"></div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2>Welcome to Memory Game</h2>
+                <p>Click the "Start" button to begin!</p>
+                <button id="startBtn">Start</button>
+            </div>
+        </div>
+        <div id="end-modal" class="modal">
+            <div class="modal-content">
+                <h2 id="end-message"></h2>
+                <button id="replay-btn">Play Again</button>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
